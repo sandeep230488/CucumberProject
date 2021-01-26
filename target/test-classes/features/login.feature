@@ -9,4 +9,9 @@ Scenario: Home page default login
 	Then User home page is displayed 
 	And User can see card details
 	 
-
+Scenario: Home page default login 
+	Given User is on Netbanking login page 
+	When User sign with following details
+	|sandeep|jackson|jel@gmail.com|pune|12346|
+	Then User home page is displayed 
+	And User can see card details
