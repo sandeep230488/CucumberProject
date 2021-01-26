@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.756348">
-    <testcase classname="Application login" name="Home page default login" time="0.756058">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="1.678051">
+    <testcase classname="Application login" name="Home page default login" time="1.677779">
         <system-out><![CDATA[Given User is on Netbanking login page......................................passed
 When User sign with following details.......................................passed
 Then User home page is displayed............................................passed
 And User can see card details...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Application logout" name="User logout" time="0.00029">
+    <testcase classname="Application logout" name="User logout" time="0.000272">
         <system-out><![CDATA[Given User click on logout button...........................................passed
 ]]></system-out>
     </testcase>
